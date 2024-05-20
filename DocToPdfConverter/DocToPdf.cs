@@ -20,11 +20,7 @@ namespace WinFormsApp1
       {
         Directory.CreateDirectory(pdfDirectory);
       }
-
-      ConvertDocFilesToPdf(docDirectory, pdfDirectory, progress);
-      //ConvertDocxFiles(docxDirectory, pdfDirectory);
-
-     
+      ConvertDocFilesToPdf(docDirectory, pdfDirectory, progress);     
     }
 
     static void ConvertDocFilesToPdf(string inputDirectory, string outputDirectory, IProgress<ProgressReport> progress)

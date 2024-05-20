@@ -20,5 +20,4 @@
       <EmbedInteropTypes>true</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-
 </Project>
